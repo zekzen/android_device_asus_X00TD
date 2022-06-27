@@ -899,8 +899,10 @@ vendor/lib64/libwvhidl.so|acf4870a0b10af74a40a4c6180f2c10a1706ddbd
 vendor/lib64/mediadrm/libwvdrmengine.so|eef10067daf437a2c302e668967a7c8c55fddbe9
 
 # DRM - Widevine
+vendor/lib/libspl.so
 vendor/lib64/liboemcrypto.so
 vendor/lib64/libops.so
+vendor/lib64/libspl.so
 
 # DRM-Qteeconnector - from LA.UM.9.2.r1-03500-SDMxx0.0 
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service|a12cd8a3d326609ee0f0a0cdb5cfc69bd2085f1e
