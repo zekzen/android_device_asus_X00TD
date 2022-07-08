@@ -5,7 +5,7 @@
 /data/system/cdfinger(/.*)?                                                   u:object_r:cdfinger_data_file:s0
 /data/vendor/focaltech(/.*)?                                                  u:object_r:fingerprint_vendor_data_file:s0
 
-/(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service_asus      u:object_r:hal_fingerprint_default_exec:s0
+/vendor/bin/hw/android\.hardware\.biometrics\.fingerprint@2.1-service\.X00TD                   u:object_r:hal_fingerprint_default_exec:s0
 
 # FPS Info
 /sys/devices/virtual/graphics/fb0/measured_fps                              u:object_r:sysfs_fps:s0
