@@ -927,7 +927,9 @@ vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.sdm660.so
 vendor/lib64/libgf_ca.so
 vendor/lib64/libgf_hal.so
 vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so
-vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so
+
+# Fingerprint sensor (patched) - from UL-ASUS_X00T-WW-17.2017.2012.438-user
+vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so|b6ee0f7e6db88e642754cab024992ad75de68d73
 
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
