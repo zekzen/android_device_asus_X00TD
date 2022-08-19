@@ -70,6 +70,11 @@ function blob_fixup() {
         "${PATCHELF}" --add-needed "libshim_wfd.so" "${2}"
         ;;
 
+        # Use VNDK 32 libhidlbase
+        vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so)
+        "${PATCHELF}" --remove-needed "libhidlbase.so" "${2}"
+        ;;
+
     esac
 }
 
