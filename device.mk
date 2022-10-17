@@ -13,7 +13,6 @@ PRODUCT_SHIPPING_API_LEVEL := 27
 
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
-PRODUCT_COMPRESSED_APEX := false
 
 # Include display HAL makefiles.
 include hardware/qcom-caf/msm8998/display/display-commonsys-intf/config/display-interfaces-product.mk
