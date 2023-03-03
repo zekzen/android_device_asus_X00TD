@@ -456,4 +456,7 @@
     <!-- Default color temperature, in Kelvin, to tint the screen when Night display is
          activated. -->
     <integer name="config_nightDisplayColorTemperatureDefault">3850</integer> 
+
+    <!-- Whether to enable Lineage Health Service -->
+    <bool name="config_lineageHealthSupported">true</bool>
 </resources>
