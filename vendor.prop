@@ -169,6 +169,11 @@ ro.com.google.clientidbase.ms=android-asus-tpin
 ro.com.google.rlzbrandcode=ASUP
 ro.com.google.rlz_ap_whitelist=y0,y5,y6,y7,y9
 
+# GPU
+rs.gpu.renderscript=0
+rs.gpu.filterscript=0
+rs.gpu.rsIntrinsic=0
+
 # Graphics
 debug.sdm.support_writeback=0
 ro.hwui.render_ahead=2
