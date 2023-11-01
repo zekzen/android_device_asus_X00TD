@@ -475,7 +475,8 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-lite-3.9.1-vendorcompat
 
 # VNDK
-PRODUCT_EXTRA_VNDK_VERSIONS := 28 29 30
+PRODUCT_COPY_FILES += \
+    prebuilts/vndk/v33/arm64/arch-arm64-armv8-a/shared/vndk-sp/libutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libutils-v33.so
 
 # Wifi
 PRODUCT_PACKAGES += \
