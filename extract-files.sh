@@ -80,6 +80,10 @@ function blob_fixup() {
         "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite-3.9.1.so" "libprotobuf-cpp-full-3.9.1.so" "${2}"
         ;;
 
+        vendor/bin/pm-service)
+        grep -q libutils-v33.so "${2}" || "${PATCHELF}" --add-needed "libutils-v33.so" "${2}"
+        ;;
+
     esac
 }
 
