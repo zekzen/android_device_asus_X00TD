@@ -1,3 +1,7 @@
+# EGL - Blobcache configuration
+ro.egl.blobcache.multifile=true
+ro.egl.blobcache.multifile_limit=33554432
+
 # Dalvik dex2oat
 dalvik.vm.dex2oat64.enabled=true
 
