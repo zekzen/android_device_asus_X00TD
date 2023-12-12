@@ -296,6 +296,8 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.oem_unlock_supported=1
 
 # PRODUCT_SHIPPING_API_LEVEL indicates the first api level, device has been commercially launched on.
+BOARD_API_LEVEL := 27
+BOARD_SHIPPING_API_LEVEL := 27
 PRODUCT_SHIPPING_API_LEVEL := 27
 
 # OMX
