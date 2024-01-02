@@ -48,6 +48,7 @@ ro.max.fling_velocity=20000
 persist.vendor.overlay.izat.optin=rro
 
 # Graphics
+debug.hwui.skia_use_perfetto_track_events=false
 debug.hwui.skia_tracing_enabled=false
 debug.sf.latch_unsignaled=0
 debug.sf.disable_backpressure=1
