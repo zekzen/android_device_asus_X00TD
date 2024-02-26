@@ -138,7 +138,7 @@ service vendor.cdsprpcd /vendor/bin/cdsprpcd
    disabled
 
 service vendor.pd_mapper /system/vendor/bin/pd-mapper
-     class core
+   class core
 
 service ppd /system/vendor/bin/mm-pp-dpps
     class late_start
@@ -189,3 +189,6 @@ on property:sys.boot_completed=1
     # stuff on the disk (ten minutes = 60000; 1 hour 360000).
     write /proc/sys/vm/dirty_expire_centisecs 60000
     write /proc/sys/vm/dirty_writeback_centisecs 60000
+
+    # STOP EATING MY BATTERY AFTER 100H OF UPTIME FUCK YOU
+    stop statsd
