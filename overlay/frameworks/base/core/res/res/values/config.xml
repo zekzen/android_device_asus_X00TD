@@ -336,4 +336,7 @@
     <!-- Boost Framework -->
     <bool name="config_supportsBoostFramework">true</bool>
 
+    <!-- Whether the device supports Smart Pixels -->
+    <bool name="config_supportSmartPixels">true</bool>
+
 </resources>
