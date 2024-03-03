@@ -491,8 +491,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     prebuilts/vndk/v33/arm64/arch-arm64-armv8-a/shared/vndk-sp/libutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libutils-v33.so
 
-# VNDK
-PRODUCT_EXTRA_VNDK_VERSIONS := 28 29 30
+# VNDK Extra
+PRODUCT_EXTRA_VNDK_VERSIONS := 30 31 32 33
 
 # Wifi
 PRODUCT_PACKAGES += \
