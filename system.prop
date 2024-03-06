@@ -44,6 +44,9 @@ persist.sys.iscdfinger_998eas=1
 ro.min.fling_velocity=160
 ro.max.fling_velocity=20000
 
+# Filesystem
+fs_mgr.overlayfs.prefer_cache_backing_storage=true
+
 # GPS
 persist.vendor.overlay.izat.optin=rro
 
