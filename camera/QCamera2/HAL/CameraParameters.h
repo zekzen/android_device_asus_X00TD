@@ -110,7 +110,7 @@ public:
     void getSupportedPreviewFormats(Vector<int>& formats) const;
 
     // Returns true if no keys are present
-    bool isEmpty() const;
+    bool empty() const;
 
     // Parameter keys to communicate between camera application and driver.
     // The access (read/write, read only, or write only) is viewed from the
