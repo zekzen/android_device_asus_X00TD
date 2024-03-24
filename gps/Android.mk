@@ -16,7 +16,8 @@ GNSS_CFLAGS := \
     -Wno-undefined-bool-conversion \
     -Wno-error=tautological-compare \
     -Wno-error=switch \
-    -Wno-error=date-time
+    -Wno-error=date-time \
+    -Wno-deprecated-volatile
 
 GNSS_HIDL_VERSION = 2.1
 
