@@ -180,3 +180,9 @@ service vendor.hvdcp_opti /system/vendor/bin/hvdcp_opti
 on property:sys.boot_completed=1
     # STOP EATING MY BATTERY AFTER 100H OF UPTIME FUCK YOU
     stop statsd
+
+    # Restart qcrild
+    stop vendor.qcrild
+    stop vendor.qcrild2
+    start vendor.qcrild
+    start vendor.qcrild2
