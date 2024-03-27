@@ -1243,7 +1243,7 @@ vendor/lib64/libqcrilFramework.so|dc62bd4f3685c420d43f4f5f4141d5908212df86
 vendor/lib64/libqcrildatactl.so|612f31db78dd262a349c093c1a5071e4fd89450d
 vendor/lib64/libqrtr.so|b22ee7df87b35ba88b518f0b821cc601cd612183
 vendor/lib64/libqsocket.so|3fa01c9aff6ed96a5ea9886c7696a046c929e339
-vendor/lib64/libril-qc-hal-qmi.so|73cb43f5628dd2536d6c3a3a0ec047225fcbe4cc
+vendor/lib64/libril-qc-hal-qmi.so|73cb43f5628dd2536d6c3a3a0ec047225fcbe4cc|f679e715373bb60322aa397a074e8c02a5328665
 vendor/lib64/libril-qc-logger.so|5622a5aa1eb7fc6c6241c0033e27272084d235c6
 vendor/lib64/libril-qc-ltedirectdisc.so|b3990ccf919b742b9a756654bfaf9d23682ff1db
 vendor/lib64/libril-qc-radioconfig.so|3d5f05676715998eecb3f19642f24d867e4e5f6a
