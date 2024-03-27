@@ -395,6 +395,9 @@ service charger /system/bin/charger
     capabilities SYS_BOOT
     seclabel u:r:charger:s0
 
+on property:init.svc.vendor.qcrild=stopped
+    stop vendor.radio-config-1-1-wrapper
+
 service vendor.msm_irqbalance /vendor/bin/msm_irqbalance -f /system/vendor/etc/msm_irqbalance.conf
     class core
     user root
