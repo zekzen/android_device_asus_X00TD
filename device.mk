@@ -11,9 +11,6 @@ TARGET_SCREEN_WIDTH := 1080
 # PRODUCT_SHIPPING_API_LEVEL indicates the first api level, device has been commercially launched on.
 PRODUCT_SHIPPING_API_LEVEL := 27
 
-# Enable updating of APEXes
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
-
 # Include display HAL makefiles.
 include hardware/qcom-caf/msm8998/display/display-commonsys-intf/config/display-interfaces-product.mk
 include hardware/qcom-caf/msm8998/display/display-commonsys-intf/config/display-product-system.mk
