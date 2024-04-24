@@ -49,13 +49,14 @@ persist.vendor.overlay.izat.optin=rro
 
 # Graphics
 debug.sf.latch_unsignaled=0
-debug.sf.disable_backpressure=1
 dev.pm.dyn_samplingrate=1
 persist.demo.hdmirotationlock=false
 persist.hwc.enable_vds=1
 sdm.debug.disable_skip_validate=1
 
-#hwui properties
+# HWUI properties
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
 ro.hwui.texture_cache_size=72
 ro.hwui.layer_cache_size=48
 ro.hwui.r_buffer_cache_size=8
@@ -84,6 +85,10 @@ ro.nfc.port=I2C
 
 # NTP Server
 persist.backup.ntpServer="0.pool.ntp.org"
+ro.vendor.qti.sys.fw.bg_apps_limit=60
+
+# Perf
+vendor.perf.gestureflingboost.enable=true
 
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
@@ -106,9 +111,6 @@ persist.sys.binary_xml=false
 
 # Time
 persist.timed.enable=true
-
-# Seamless transfer
-sys.fflag.override.settings_seamless_transfer=true
 
 # WiFi Display
 persist.debug.wfd.enable=1
