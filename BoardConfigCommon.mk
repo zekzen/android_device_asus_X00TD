@@ -179,10 +179,6 @@ VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 # Only needed for signing
 BOARD_AVB_ENABLE := false
 
-# Verity
-# Only needed for signing
-BOARD_AVB_ENABLE := false
-
 # WiFi
 BOARD_HAS_QCOM_WLAN := true
 BOARD_WLAN_DEVICE := qcwcn
