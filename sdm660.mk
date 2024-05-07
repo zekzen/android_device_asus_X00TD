@@ -275,10 +275,6 @@ PRODUCT_PACKAGES += \
     com.android.nfc_extras \
     Tag
 
-# Lineage Health
-PRODUCT_PACKAGES += \
-    vendor.lineage.health-service.default
-
 # Neuralnetworks
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor
