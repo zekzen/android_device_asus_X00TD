@@ -356,8 +356,8 @@ PRODUCT_PACKAGES += \
 
 # Preopt critical applications
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SettingsGoogle \
-    SystemUIGoogle
+    Settings \
+    SystemUI
 
 # Public Libraries
 PRODUCT_COPY_FILES += \
