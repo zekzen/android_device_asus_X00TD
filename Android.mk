@@ -6,7 +6,8 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter X00TD X01BD,$(TARGET_DEVICE)),)
+ifeq ($(TARGET_DEVICE),X00TD)
+
   subdir_makefiles=$(call first-makefiles-under,$(LOCAL_PATH))
   $(foreach mk,$(subdir_makefiles),$(info including $(mk) ...)$(eval include $(mk)))
 
