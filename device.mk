@@ -4,8 +4,12 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit the proprietary files
-$(call inherit-product, vendor/asus/sdm660-common/sdm660-common-vendor.mk)
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2160
+TARGET_SCREEN_WIDTH := 1080
+
+# PRODUCT_SHIPPING_API_LEVEL indicates the first api level, device has been commercially launched on.
+PRODUCT_SHIPPING_API_LEVEL := 27
 
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
@@ -401,6 +405,7 @@ PRODUCT_PACKAGES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
+    init.device.rc \
     init.qcom.post_boot.sh \
     init.qcom.sh \
     init.qcom.usb.sh
@@ -458,6 +463,10 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0-service.qti
 
+# Thermal configs
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.asus_sdm660
@@ -488,7 +497,7 @@ PRODUCT_PACKAGES += \
     libwifi-hal-qcom \
     libwifi-hal-ctrl \
     libwpa_client \
-    WifiOverlay \
+    X00TDWifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf \
     wpa_cli
@@ -506,3 +515,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
+
+# Inherit the proprietary files
+$(call inherit-product, vendor/asus/X00TD/X00TD-vendor.mk)

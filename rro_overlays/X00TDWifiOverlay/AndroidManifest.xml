@@ -13,9 +13,9 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<!-- Pixel specific wifi overlays -->
+<!-- Asus specific wifi overlays -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.wifi.resources.asus_sdm660"
+    package="com.android.wifi.resources.X00TD"
     android:versionCode="1"
     android:versionName="1.0">
     <application android:hasCode="false" />
