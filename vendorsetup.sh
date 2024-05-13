@@ -8,9 +8,4 @@ git clone --depth=1 https://github.com/sotodrom/device_asus_X00TD -b u device/as
 rm -rf vendor/asus
 git clone --depth=1 https://github.com/sotodrom/vendor_asus -b u vendor/asus
 
-cd frameworks/base
-git reset --merge 9778620
-git reset --merge HEAD~1
-cd ../../
-
 export TZ=Asia/Jakarta
