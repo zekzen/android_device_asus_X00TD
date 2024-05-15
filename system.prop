@@ -36,6 +36,9 @@ persist.sys.fflag.override.settings_enable_monitor_phantom_procs=false
 ro.min.fling_velocity=60
 ro.max.fling_velocity=20000
 
+# Frees More RAM
+persist.sys.purgeable_assets=1
+
 # FUSE passthrough
 persist.sys.fuse.passthrough.enable=true
 
