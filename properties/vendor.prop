@@ -152,9 +152,6 @@ vendor.fm.a2dp.conc.disabled=false
 # FS-verity
 ro.apk_verity.mode=2
 
-# Fastbootd
-ro.fastbootd.available=true
-
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
