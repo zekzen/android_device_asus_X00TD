@@ -476,10 +476,11 @@ PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-service
 
 # FIXME: master: compat for libprotobuf
-# See https://android-review.googlesource.com/c/platform/prebuilts/vndk/v28/+/1109518
+# See https://android-review.googlesource.com/c/platform/prebuilts/misc/+/2296319
+# See https://android-review.googlesource.com/c/platform/prebuilts/misc/+/2817457
 PRODUCT_PACKAGES += \
-    libprotobuf-cpp-full-vendorcompat \
-    libprotobuf-cpp-lite-vendorcompat
+    libprotobuf-cpp-full-3.9.1-vendorcompat \
+    libprotobuf-cpp-lite-3.9.1-vendorcompat
 
 # VNDK
 PRODUCT_EXTRA_VNDK_VERSIONS := 28 29 30
