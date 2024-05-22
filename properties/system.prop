@@ -56,11 +56,8 @@ persist.vendor.overlay.izat.optin=rro
 # Graphics
 debug.hwui.skia_use_perfetto_track_events=false
 debug.hwui.skia_tracing_enabled=false
-debug.sf.latch_unsignaled=0
-debug.sf.disable_backpressure=1
 dev.pm.dyn_samplingrate=1
 persist.demo.hdmirotationlock=false
-persist.hwc.enable_vds=1
 sdm.debug.disable_skip_validate=1
 
 #hwui properties
@@ -98,6 +95,10 @@ ro.nfc.port=I2C
 
 # NTP Server
 persist.backup.ntpServer="0.pool.ntp.org"
+
+# Perf
+ro.vendor.qti.sys.fw.bg_apps_limit=32
+vendor.perf.gestureflingboost.enable=true
 
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
