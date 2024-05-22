@@ -49,14 +49,6 @@
         <instance>default</instance>
     </interface>
 </hal>
-<hal format="hidl" optional="true">
-    <name>android.hardware.cas</name>
-    <version>1.0-2</version>
-    <interface>
-        <name>IMediaCasService</name>
-        <instance>default</instance>
-    </interface>
-</hal>
 <hal format="aidl" optional="true">
     <name>android.hardware.drm</name>
     <interface>
