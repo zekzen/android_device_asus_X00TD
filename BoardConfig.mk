@@ -58,7 +58,7 @@ TARGET_USES_QTI_MAPPER_EXTENSIONS_1_1 := true
 TARGET_ENABLE_MEDIADRM_64 := true
 
 # FCM
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/framework_compatibility_matrix.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/vintf/framework_compatibility_matrix.xml
 
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
