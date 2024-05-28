@@ -17,6 +17,6 @@ git clone --depth=1 https://github.com/sotodrom/android_device_lineage_sepolicy 
 rm -rf frameworks/base
 git clone --depth=1 https://github.com/Tiktodz/android_frameworks_base frameworks/base
 
-rm -rf vendor/lineage-priv
+#rm -rf vendor/lineage-priv
 
 export TZ=Asia/Jakarta
